@@ -1,6 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
+import axios from "axios";
+
+const spotify_secret_key = process.env.REACT_APP_SPOTIFY_KEY;
+
+function retrieveData() {
+  console.log("iniRetrieve");
+  axios.get("");
+}
+
+retrieveData();
+
+console.log(process.env.REACT_APP_SPOTIFY_KEY);
 function App() {
   return (
     <div className="App">
