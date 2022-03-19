@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.jumbotron {
+  margin-top: 50px;
+}
+.title1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: "Sriracha", cursive;
+}
+.titlePlaylist {
+  font-size: 20px;
+  width: 84%;
+  padding-bottom: 12px;
+  border-bottom: 4px solid #3c6288;
+  font-family: "Fredoka", sans-serif;
+}
+/* Card */
+.card {
+  margin: 60px 0px 40px;
+  text-align: center;
+  border-radius: 16px;
+  padding: 18px 0px;
+  font-family: "Poppins", sans-serif;
+  border-color: #93acc4;
+  border: 5px dashed #93acc4 !important;
+}
+.decs {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+.album {
+  margin-top: -16px;
+  font-size: 18px;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.card-text {
+  font-size: 18px;
+}
+.card-img-top {
+  margin: 24px 0px;
+  border-radius: 5%;
+  width: 50%;
+}
+#iconMusic {
+  margin-right: 10px;
+  width: 14%;
+  margin-top: -4px;
+}
+.btn-dark {
+  border-radius: 90px;
+  color: #183030;
+  background-color: #9eb3d5;
+  border-color: #9eb3d5;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  width: 64%;
+}
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus {
+  color: #fff;
+  background-color: #3c6288;
+  border-color: #3c6288;
+}
+.btn-dark:active,
+.btn-dark:focus {
+  box-shadow: 0 0 0 0.25rem rgb(183 193 200 / 50%);
+}
+/* Audio */
+.audio {
+  width: 34%;
+}
+
+/* Form */
+#formPlaylist {
+  margin-top: 60px;
+  padding: 0px 174px;
+}
+.create {
+  font-size: 36px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: "Sriracha", cursive;
+}
+.form-group {
+  margin-top: 16px;
+}
+.titleForm {
+  font-size: 18px;
+  padding-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+.form-control {
+  border: 1px solid #93acc4;
+  border-radius: 10px;
+}
+#btnSubmit {
+  margin-top: 24px;
+  width: 30%;
+}
+
+@media only screen and (min-width: 381px) and (max-width: 768px) {
+  .jumbotron {
+    text-align: center;
+  }
+  .titlePlaylist {
+    width: 100%;
+    border-bottom: 2px solid #3c6288;
+  }
+  .audio {
+    width: 100%;
+  }
+  .create {
+    text-align: center;
+  }
+  #btnSubmit {
+    margin-top: 34px;
+    width: 85%;
+  }
+}
